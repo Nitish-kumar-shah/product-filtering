@@ -1,5 +1,16 @@
+import Nav from "./Nav/Nav";
+import Products from "./Products/Products";
+import Recommended from "./Recommended/Recommended";
+import "./index.css";
+
 function App() {
-  return <h1>Helllllo world</h1>;
+  return (
+    <>
+      <Nav />
+      <Recommended />
+      <Products />
+    </>
+  );
 }
 
 export default App;
