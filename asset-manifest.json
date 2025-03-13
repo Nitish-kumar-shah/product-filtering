@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/product-filtering/static/css/main.1844fff0.css",
+    "main.js": "/product-filtering/static/js/main.cef183ba.js",
+    "index.html": "/product-filtering/index.html",
+    "main.1844fff0.css.map": "/product-filtering/static/css/main.1844fff0.css.map",
+    "main.cef183ba.js.map": "/product-filtering/static/js/main.cef183ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1844fff0.css",
+    "static/js/main.cef183ba.js"
+  ]
+}
