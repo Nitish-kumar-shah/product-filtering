@@ -76,9 +76,9 @@ function App() {
   return (
     <>
       <Sidebar handleCheckBoxChange={handleCheckBoxChange} />
-      <Nav />
-      <Recommended />
-      <Products />
+      <Nav query={query} handleInputChange={handleInputChange} />
+      <Recommended handleClick={handleClick} />
+      <Products result={result} />
     </>
   );
 }

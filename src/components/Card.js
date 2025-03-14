@@ -1,26 +1,24 @@
 import { FaBagShopping } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa";
 
-function Card() {
+function Card({ img, title, star, reviwes, newPrice, prevPrice }) {
   return (
     <section className="card">
-      <img
-        src="https://m.media-amazon.com/images/I/616sA5XUKtL._AC_UY675_.jpg"
-        alt="shoe"
-        className="card-img"
-      />
+      <img src={img} alt={title} className="card-img" />
       <div className="card-details">
-        <h3 className="card-titel">Shoe</h3>
+        <h3 className="card-titel">{title}</h3>
         {/* card-reviews */}
         <section className="card-reviews">
-          <FaStar className="rating-star" /> <FaStar className="rating-star" />{" "}
-          <FaStar className="rating-star" /> <FaStar className="rating-star" />
-          <span className="total-reviews">123</span>
+          {star}
+          {star}
+          {star}
+          {star}
+          <span className="total-reviews">{reviwes}</span>
         </section>
         {/* card-price */}
         <section className="card-price">
           <div className="price">
-            <del>$300</del> 200
+            <del>{prevPrice}</del> {newPrice}
           </div>
           <FaBagShopping className="bag-icon" />
         </section>
