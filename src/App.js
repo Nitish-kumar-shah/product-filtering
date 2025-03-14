@@ -34,6 +34,7 @@ function App() {
     setSelectedCategory(e.target.value);
   };
 
+  //--------Main Function----------------
   function filteredData(products, selected, query) {
     let filteredProducts = products;
 
@@ -68,6 +69,9 @@ function App() {
       )
     );
   }
+
+  //-----calling Main Function-----------------
+  const result = filteredData(products, selectedCtegory, query);
 
   return (
     <>
