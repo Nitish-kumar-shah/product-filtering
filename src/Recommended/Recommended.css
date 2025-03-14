@@ -1,6 +1,7 @@
-/* .recommended {
-  margin-left: 10rem;
-} */
+.recommended {
+  width: 25px;
+  background: red;
+}
 
 .recommended-flex {
   display: flex;
