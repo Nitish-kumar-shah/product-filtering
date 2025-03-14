@@ -1,14 +1,15 @@
 nav {
   display: flex;
-  border-bottom: 2px solid #f3f3f3;
+  /* border-bottom: 2px solid #f3f3f3; */
   justify-content: space-around;
   align-items: center;
   padding: 13px;
   z-index: 999;
   margin-left: 11.8rem;
-  /* position: fixed; */
-  /* background: white; */
-  /* width: 100%; */
+  position: fixed;
+  background: wheat;
+  width: 100%;
+  top: 0;
 }
 input {
   padding: 5px 20px;

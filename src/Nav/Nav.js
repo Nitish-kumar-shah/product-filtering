@@ -4,11 +4,12 @@ import { RiUserAddFill } from "react-icons/ri";
 
 import "./Nav.css";
 
-function Nav() {
+function Nav({ handleInputChange }) {
   return (
     <nav>
       <div className="nav-container">
         <input
+          onChange={handleInputChange}
           className="search-input"
           type="text"
           placeholder="Enter your search shoes"

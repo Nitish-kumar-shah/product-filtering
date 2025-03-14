@@ -4,7 +4,7 @@ import "./Color.css";
 function Color({ handleCheckBoxChange }) {
   return (
     <div className="color-container">
-      <h2 className="sidebar-title price-title">Price</h2>
+      <h2 className="sidebar-title price-title">Colors</h2>
 
       <label className="sidebar-label-container">
         <input

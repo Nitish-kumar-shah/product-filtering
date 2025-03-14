@@ -1,5 +1,5 @@
 .category-container {
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
 }
 
 .sidebar-title {
@@ -7,10 +7,9 @@
   font-weight: normal;
   margin-bottom: 5px;
   /* margin-bottom: 20px; */
+  margin-top: 15px;
 }
-.sidebar-items {
-  margin-top: 20px;
-}
+
 .sidebar-label-container {
   display: block;
   position: relative;

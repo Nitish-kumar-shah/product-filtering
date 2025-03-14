@@ -5,7 +5,8 @@
 
 .recommended-flex {
   display: flex;
-  margin-left: 20rem;
+  margin-left: 21rem;
+  margin-top: 30px;
 }
 .recommended-title {
   margin-left: 20rem;

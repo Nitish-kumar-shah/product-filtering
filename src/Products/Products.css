@@ -2,28 +2,28 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 20rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   z-index: -2;
-  /* background: teal; */
+  background: teal;
 }
 .card {
   margin: 20px;
   border: 2px solid #ededed;
-  padding: 10px;
+  padding: 20px;
   cursor: pointer;
-  /* background: white; */
+  background: white;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .card-img {
-  width: 7rem;
-  margin-bottom: 0.5rem;
+  width: 13rem;
+  margin-bottom: 1rem;
 }
 .card-titel {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .card-reviews {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   display: flex;
 }
 .rating-star {
@@ -40,4 +40,5 @@
 }
 .bag-icon {
   color: #535353;
+  margin-left: 10px;
 }
