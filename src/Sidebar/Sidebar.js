@@ -4,7 +4,7 @@ import Category from "./Category/Category";
 import Price from "./Price/Price";
 import Color from "./Color/Color";
 
-function Sidebar() {
+function Sidebar({ handleCheckBoxChange }) {
   return (
     <>
       <section className="sidebar">
@@ -12,9 +12,9 @@ function Sidebar() {
           <IoCartSharp className="cart-icon" />
         </div>
 
-        <Category />
-        <Price />
-        <Color />
+        <Category handleCheckBoxChange={handleCheckBoxChange} />
+        <Price handleCheckBoxChange={handleCheckBoxChange} />
+        <Color handleCheckBoxChange={handleCheckBoxChange} />
       </section>
     </>
   );
