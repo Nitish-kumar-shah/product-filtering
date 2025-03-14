@@ -25,7 +25,7 @@ function App() {
   );
 
   //----------------Radio Filter---------------
-  const handleChange = (e) => {
+  const handleCheckBoxChange = (e) => {
     setSelectedCategory(e.target.value);
   };
 
